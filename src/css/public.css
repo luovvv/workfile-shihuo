@@ -1,0 +1,370 @@
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+#shihuo-nav-area {
+    background-color: #fff;
+}
+
+.logos-box {
+    height: 50px;
+    margin: 0 auto;
+    padding: 20px 0 15px;
+    position: relative;
+    width: 1080px;
+    z-index: 59;
+}
+
+.logos-box .logo {
+    float: left;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 70px;
+}
+
+.logos-box .search {
+    position: relative;
+    border: 2px solid #FF4338;
+    float: left;
+    height: 33px;
+    margin-top: 8px;
+    width: 500px;
+}
+
+.logos-box .search .input {
+    position: relative;
+    float: left;
+    height: 33px;
+    width: 360px;
+}
+
+.logos-box .search .input input {
+    outline: 0;
+    border: 0 none;
+    color: #9c9c9c;
+    height: 33px;
+    padding-left: 10px;
+    width: 320px;
+    line-height: 33px;
+}
+
+.shihuo-nav-shsug {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-top: 0;
+    box-shadow: 1px 1px 3px #ededed;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -2px;
+    width: 502px;
+    z-index: 1;
+}
+
+.search .tags {
+    position: absolute;
+    height: 28px;
+    right: 65px;
+    top: 6px;
+}
+
+.search .tags a {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    line-height: 20px;
+    padding: 0 8px;
+    margin-left: 10px;
+    color: #666;
+}
+
+.logos-box .search .loading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 466px;
+    height: 31px;
+    line-height: 20px;
+    background-color: #FFF;
+    display: none;
+    color: #999;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.logos-box .search .loading .loadingbar {
+    width: 404px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background-color: #e9e9e9;
+    height: 6px;
+    position: relative;
+}
+
+.logos-box .search .loading .loadingbar i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: 6px;
+    background-color: #80e0a2;
+    border-radius: 10px;
+    max-width: 318px;
+}
+
+.logos-box .search .btn {
+    background: url(//sh1.hoopchina.com.cn/images/trade/common/search.png) no-repeat center center #ff4338;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    width: 54px;
+}
+
+.logos-box .search .fade-bg1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 466px;
+    height: 33px;
+    background-color: #000;
+    display: none;
+    opacity: .8;
+}
+
+.logos-box .search .tips-bg1 {
+    position: absolute;
+    right: 95px;
+    top: 0;
+    width: 210px;
+    height: 33px;
+    line-height: 33px;
+    background-color: transparent;
+    z-index: 10;
+    color: #FFF;
+    font-size: 12px;
+    display: none;
+    text-align: right;
+}
+
+.signed .name .unsign {
+    margin-left: 10px;
+    display: inline-block;
+    line-height: 40px;
+    height: 40px;
+    padding-right: 18px;
+    /* float: left; */
+}
+
+.signed .name .unsign a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.signed .name .unsign span {
+    margin: 0 5px;
+    color: #fff;
+}
+
+.logos-box .search .tips-bg1 s {
+    display: inline-block;
+    background: url(//sh1.hoopchina.com.cn/images/trade/Gouicon.png) no-repeat left top;
+    width: 21px;
+    height: 21px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.logos-box .imgs {
+    margin-top: -8px;
+    margin-left: 50px;
+    position: relative;
+    z-index: 88;
+}
+
+.fr {
+    display: inline;
+    float: right;
+}
+
+.search .tags a.redlink {
+    color: #FF4338;
+    background-color: transparent;
+}
+
+.logos-box .search #cancelBtn {
+    position: absolute;
+    right: 0;
+    display: none;
+    background-image: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+
+/* 导航栏 */
+
+.nav-area {
+    background-color: #FF4338;
+    min-width: 1080px;
+    height: 40px;
+    position: relative;
+    z-index: 58;
+}
+
+.nav-area .area-min {
+    margin: 0 auto;
+    position: relative;
+    width: 1080px;
+}
+
+.nav-area .area-min .menu_nav {
+    cursor: pointer;
+    height: 40px;
+    float: left;
+}
+
+.nav-area .area-min .menu_nav>li {
+    float: left;
+}
+
+.nav-area .area-min .menu_nav>li>a {
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    height: 35px;
+    line-height: 40px;
+    padding: 0 28px;
+    border-bottom: 5px solid transparent;
+}
+
+.nav-area-right {
+    float: right;
+    background-color: #FF4338;
+    padding-left: 5px;
+}
+
+.signed {
+    position: relative;
+    display: inline-block;
+    line-height: 40px;
+    float: left;
+}
+
+.signed .name>a {
+    z-index: 51;
+    display: block;
+    padding-left: 15px;
+    padding-right: 31px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: right;
+    position: relative;
+    color: #fff;
+    background-color: #FF4338;
+    max-width: 150px;
+}
+
+.signed .name>a i {
+    border-top: 4px solid #fff;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    display: block;
+    vertical-align: middle;
+    margin: 0 0 0 10px;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+.signed.collapse ul {
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .95);
+    border: 2px solid #FF4338;
+    border-top: 2px solid #FFF;
+    z-index: 50;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90px;
+    display: none;
+    /* transition: all 1s; */
+}
+
+.signed.collapse li {
+    text-align: center;
+    line-height: 30px;
+}
+
+.signed.collapse ul a {
+    font-size: 12px;
+}
+
+.top-nva-list-small {
+    background-color: #fff;
+    height: 40px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+    position: relative;
+    z-index: 28;
+}
+
+.top-nva-list-small dl {
+    width: 1080px;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+
+.top-nva-list-small dl dt {
+    float: left;
+    border-left: 2px #b70000 solid;
+    font-size: 16px;
+    padding-left: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.top-nva-list-small dl dd {
+    float: left;
+    padding: 0 30px;
+    border-right: 1px #e5e5e5 solid;
+    color: #666;
+    position: relative;
+}
+
+.top-nva-list-small dl a {
+    display: block;
+    color: #666;
+}
+
+.top-nva-list-small dl dd.d1 s {
+    display: inline-block;
+    background: url(//sh1.hoopchina.com.cn/images/trade/common/icon1.png) no-repeat;
+    width: 14px;
+    height: 19px;
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+    vertical-align: middle;
+}

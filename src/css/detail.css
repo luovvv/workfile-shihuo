@@ -1,0 +1,838 @@
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.top_block {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.top_block.readied {
+    visibility: visible;
+}
+
+.top_block h2 {
+    color: #333;
+    font-size: 22px;
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 2px solid #e2e2e2;
+    position: relative;
+    background-color: #FFF;
+}
+
+.top_block h2 .dy-btn {
+    background: url(//sh1.hoopchina.com.cn/fis_static/trade/static/sports/detail/icon-jiangjiadingyue_3fe767c.png) no-repeat 13px center #f1f1f1;
+    width: 70px;
+    padding-left: 30px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    border-radius: 13px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    cursor: pointer;
+}
+
+.top_block .block_one_details {
+    background: #fff;
+    border-radius: 3px;
+    padding: 10px 0;
+}
+
+.top_block .block_one_details .proImg_block {
+    float: left;
+    width: 430px;
+    padding-right: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    background-color: #FFF;
+    z-index: 5;
+    margin-top: -163px;
+    position: absolute;
+    top: 380px;
+    margin-left: 0px;
+    width: 430px;
+    left: 219.6px;
+}
+
+.top_block .block_one_details .Homeslide_bigwrap {
+    height: 430px;
+}
+
+.top_block .block_one_details .proImg_block a {
+    float: left;
+    border-radius: 3px;
+}
+
+.shihuo-content-wrap .Homeslide_bigpicdiv img {
+    background: url(//sh1.hoopchina.com.cn/images/trade/icon_loading.gif) no-repeat center center transparent;
+}
+
+.Homeslide_hand0 {
+    width: 50%;
+    position: absolute;
+    height: 430px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.Homeslide_hand1 {
+    width: 50%;
+    position: absolute;
+    height: 430px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.top_block .block_one_details .proImg_block .pic-list-wrap {
+    margin: 0 20px;
+    width: 390px;
+    height: 80px;
+    padding: 20px 0;
+    position: relative;
+}
+
+.top_block .block_one_details .proImg_block .pic-list {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #333;
+    background-color: rgba(255, 255, 255, .5);
+    z-index: 10;
+}
+
+.Homeslide_thumb ul {
+    position: absolute;
+    width: 10000px;
+    left: 0;
+}
+
+.top_block .block_one_details .proImg_block .pic-list ul li.this {
+    border: 4px solid #ebebeb;
+}
+
+.top_block .block_one_details .proImg_block .pic-list ul li {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 3px;
+    overflow: hidden;
+    float: left;
+    margin-right: 5px;
+    border: 4px solid transparent;
+}
+
+.top_block .block_one_details .proImg_block a {
+    float: left;
+    border-radius: 3px;
+}
+
+.Homeslide_thumb a {
+    display: block;
+    overflow: hidden;
+}
+
+.top_block .block_one_details .proImg_block .goods-tag .goods-tag-title {
+    width: 70px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.top_block .block_one_details .proImg_block .goods-tag>div {
+    float: left;
+}
+
+.top_block .block_one_details .proImg_block .goods-tag .goods-tag-list li {
+    padding: 0 10px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #FF4338;
+    color: #FF4338;
+    float: left;
+    margin: 0 10px 10px 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.top_block .block_one_details .proImg_block .goods-tag .goods-tag-list li span {
+    margin-left: 5px;
+}
+
+.top_block .block_one_details .spacer {
+    display: none!important;
+}
+
+.top_block .block_one_details .proMore_block {
+    float: right;
+    margin-left: 20px;
+    width: 630px;
+    position: relative;
+    margin-top: -10px;
+}
+
+.top_block .block_one_details .proMore_block .sku-info {
+    position: relative;
+    z-index: 10;
+}
+
+.top_block .block_one_details .proMore_block .proMore_block_color {
+    float: left;
+    width: 460px;
+}
+
+.proMore_block_color>p,
+.size_list>p {
+    font-size: 16px;
+    line-height: 35px;
+    color: #333;
+}
+
+.top_block .proMore_block_color.color_prolist li {
+    margin-top: 0;
+}
+
+.top_block .color_prolist li {
+    width: 100px;
+    float: left;
+    height: 130px;
+    border-radius: 3px;
+    margin: 13px 13px 0 0;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.top_block .block_one_details .proMore_block .size_list {
+    float: right;
+    width: 170px;
+}
+
+.size_list>p {
+    padding-left: 10px;
+}
+
+.top_block .block_one_details .size_list>ul.limit {
+    display: block;
+    height: 110px;
+    overflow: hidden;
+}
+
+.top_block .block_one_details .size_list li {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+.top_block .block_one_details .size_list .total-size {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: #FFF;
+    z-index: 10;
+}
+
+.top_block .block_one_details .size_list .total-size li {
+    margin: 0 0 10px 10px;
+}
+
+.top_block .shop_list {
+    border-radius: 3px;
+    position: relative;
+    z-index: 2;
+    margin-top: 10px;
+}
+
+.top_block .shop_list .title {
+    padding: 0 20px;
+    height: 35px;
+    font-size: 14px;
+    color: #333;
+    background: #ebebeb;
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+}
+
+.top_block .shop_list .title li {
+    float: left;
+    margin-right: 35px;
+    cursor: pointer;
+    line-height: 35px;
+}
+
+.top_block .shop_list .title li.select span {
+    border-bottom: 2px solid #FF4338;
+}
+
+.top_block .shop_list .list {
+    width: 100%;
+    position: relative;
+}
+
+.top_block .shop_list .list .shop_list_suppliers {
+    position: relative;
+}
+
+.top_block .tips {
+    padding: 5px;
+    border: 1px solid #ebebeb;
+    border-top: 0;
+}
+
+.top_block .tips p {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.top_block .tips p span {
+    color: #FF4338;
+}
+
+.top_block .shop_list .list .shop_list_ul {
+    background-color: #FFF;
+}
+
+.top_block .shop_list .list .tj {
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    background: #f1f1f1;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+}
+
+.top_block .shop_list .list .shop_list_ul li>div {
+    min-height: 85px;
+    text-align: center;
+    position: relative;
+    border: 1px solid #ebebeb;
+    border-top: 0;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-box-lines: multiple;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.top_block .shop_list .list .shop_list_ul li>div .cell {
+    width: 375px;
+}
+
+.top_block .shop_list .list .shop_list_ul li>div .cell>div,
+.top_block .shop_list .list .shop_list_ul li>div .cell>a {
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.top_block .shop_list .list .coupon .coupon-title {
+    font-weight: 700;
+    line-height: 30px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #FF4338;
+    width: 100%;
+    position: relative;
+    display: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.top_block .proMore_block_color.color_prolist li {
+    margin-top: 0;
+}
+
+.top_block .color_prolist li a {
+    display: block;
+    color: #333;
+    width: 100%;
+    height: 130px;
+    border-radius: 3px;
+    position: relative;
+    background-color: #FFF;
+    border: 1px solid transparent;
+}
+
+.top_block .color_prolist li a .style-wraning {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 5;
+    display: none;
+    background: url(//sh1.hoopchina.com.cn/fis_static/trade/static/sports/widget/sneaker/icon-warning_9922bef.png) no-repeat scroll center center transparent;
+}
+
+.top_block .color_prolist li a .warning-box {
+    width: 117px;
+    height: 73px;
+    border: 1px solid #FF4338;
+    border-radius: 3px;
+    padding: 0 10px;
+    background: #FFF;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    display: none;
+}
+
+.top_block .color_prolist li a .warning-box p {
+    text-align: center;
+    line-height: 40px;
+    color: #333;
+}
+
+.top_block .color_prolist li a .warning-box div {
+    float: left;
+    width: 56px;
+    height: 23px;
+    border-radius: 3px;
+    background-color: #dd1712;
+    text-align: center;
+    line-height: 23px;
+    color: #FFF;
+}
+
+.top_block .color_prolist li a .warning-box div:last-child {
+    background-color: #e75c59;
+    margin-left: 4px;
+}
+
+.top_block .color_prolist li a img {
+    width: 100%;
+}
+
+.top_block .color_prolist li a .desc {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 2px 0;
+    height: 21px;
+    z-index: 5;
+}
+
+.top_block .color_prolist li a .desc .price {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.top_block .color_prolist li a .desc .stylename {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 118px;
+    height: 21px;
+    line-height: 21px;
+    z-index: 5;
+    width: 100%;
+}
+
+.top_block .color_prolist li .no-link {
+    display: none;
+    width: 100%;
+    position: absolute;
+    height: 82px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.top_block .color_prolist li .no-link span {
+    display: inline-block;
+    z-index: 5;
+    position: relative;
+    width: 80px;
+    height: 45px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 20px;
+    color: #000;
+    text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+
+.top_block .color_prolist li .no-link span i {
+    font-style: normal;
+}
+
+.top_block .color_prolist li {
+    width: 100px;
+    float: left;
+    height: 130px;
+    border-radius: 3px;
+    margin: 13px 13px 0 0;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.top_block .shop_list .list .coupon a {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+}
+
+.top_block .shop_list .list .shop_list_ul li .td4 {
+    min-width: 90px;
+    height: 32px;
+    padding: 20px 0;
+}
+
+.top_block .shop_list .list .shop_list_ul li .price {
+    text-align: left;
+}
+
+.top_block .shop_list .list .shop_list_ul li .price a {
+    border: 1px solid #f8d2d4;
+    background: #FFF;
+    color: #FF4338;
+    border-radius: 3px;
+    font-size: 18px;
+    display: inline-block;
+    min-width: 88px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+.top_block .shop_list .list .shop_list_ul li .warning-alert {
+    width: 30px;
+    height: 15px;
+    padding-top: 20px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -17px;
+    background: url(//sh1.hoopchina.com.cn/fis_static/trade/static/sports/widget/sneaker/icon-warning_9922bef.png) no-repeat scroll center top transparent;
+    color: #333;
+    font-size: 12px;
+    display: none;
+    cursor: pointer;
+}
+
+.top_block .shop_list .list .shop_list_ul li .warning-alert-box {
+    padding: 10px;
+    width: 122px;
+    min-height: 126px;
+    background-color: #FFF;
+    border: 1px solid #FF4338;
+    position: absolute;
+    right: 10px;
+    top: 70%;
+    border-radius: 3px;
+    z-index: 10;
+    display: none;
+}
+
+.top_block .shop_list .list .shop_list_ul li .warning-alert-box p {
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.top_block .shop_list .list .shop_list_ul li .warning-alert-box span:last-child {
+    margin-left: 10px;
+    background-color: #e75c59;
+}
+
+.top_block .shop_list .list .tj {
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    background: #f1f1f1;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+}
+
+.top_block .shop_list .list .shop_list_ul li .img {
+    width: 88px;
+    height: 88px;
+    overflow: hidden;
+    padding-left: 15px;
+    -ms-flex-item-align: start;
+    -webkit-align-self: flex-start;
+    -moz-align-self: flex-start;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.top_block .shop_list .list .shop_list_ul li>div .cell {
+    width: 375px;
+}
+
+.top_block .shop_list .list .shop_list_ul li .td4 {
+    min-width: 90px;
+    height: 32px;
+    padding: 20px 0;
+}
+
+.top_block .shop_list .list .shop_list_ul li>div .cell>div,
+.top_block .shop_list .list .shop_list_ul li>div .cell>a {
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.top_block .shop_list .list .shop_list_ul li .tit {
+    padding: 0 10px;
+}
+
+.top_block .shop_list .list .shop_list_ul li .tit .ft {
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    padding: 10px 0;
+    width: 100%;
+    max-width: 355px;
+    overflow-y: visible;
+}
+
+.shop_list_ul li .tit .ft>s {
+    background-color: #FF4338;
+    border-radius: 3px;
+    color: #FFF;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0 5px;
+    line-height: 18px;
+    font-size: 12px;
+    vertical-align: top;
+    margin-top: 1px;
+}
+
+.top_block .shop_list .list .shop_list_ul li .tit .ft {
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+}
+
+.top_block .shop_list .list .shop_list_ul li .tit .ft span {
+    font-size: 12px;
+    color: #FF4338;
+    border: 1px solid #FF4338;
+    border-radius: 3px;
+    padding: 2px;
+    vertical-align: top;
+    margin: 0 0 0 5px;
+    display: inline-block;
+    line-height: 14px;
+    position: relative;
+}
+
+.top_block .shop_list .list .shop_list_ul li .tit .ft i {
+    color: #999;
+    font-style: normal;
+}
+
+.top_block .shop_list .list .shop_list_ul li .shop_list_suppliers_size {
+    padding-left: 10px;
+    color: #999;
+}
+
+.top_block .shop_list .list .shop_list_ul li .chima {
+    float: left;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+.top_block .shop_list .list .shop_list_ul li .size {
+    text-align: left;
+    float: left;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.top_block .shop_list .list .coupon .coupon-title {
+    font-weight: 700;
+    line-height: 30px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #FF4338;
+    width: 100%;
+    position: relative;
+    display: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.top_block .shop_list .list .shop_list_ul li .td4 {
+    min-width: 90px;
+    height: 32px;
+    padding: 20px 0;
+}
+
+.top_block .shop_list .list .shop_list_ul li .warning-alert {
+    width: 30px;
+    height: 15px;
+    padding-top: 20px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -17px;
+    background: url(//sh1.hoopchina.com.cn/fis_static/trade/static/sports/widget/sneaker/icon-warning_9922bef.png) no-repeat scroll center top transparent;
+    color: #333;
+    font-size: 12px;
+    display: none;
+    cursor: pointer;
+}
+
+.top_block .shop_list .list .shop_list_ul li .warning-alert-box {
+    padding: 10px;
+    width: 122px;
+    min-height: 126px;
+    background-color: #FFF;
+    border: 1px solid #FF4338;
+    position: absolute;
+    right: 10px;
+    top: 70%;
+    border-radius: 3px;
+    z-index: 10;
+}
+
+.top_block .shop_list .list .shop_list_ul li .warning-alert-box p {
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.top_block .shop_list .list .shop_list_ul li .warning-alert-box span {
+    margin-top: 5px;
+    width: 56px;
+    height: 23px;
+    line-height: 23px;
+    color: #FFF;
+    float: left;
+    background-color: #FF4338;
+    cursor: pointer;
+}
+
+.top_block .shop_list .more {
+    height: 50px;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    border-top: 0;
+}
+
+.top_block .shop_list .more .more-btn {
+    padding: 0 30px;
+    cursor: pointer;
+    line-height: 35px;
+    height: 35px;
+    text-align: center;
+    background-color: #FF4338;
+    color: #FFF;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8px;
+}
+
+.top_block .shop_list .more span {
+    width: 10px;
+    height: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(//sh1.hoopchina.com.cn/fis_static/trade/static/sports/images/more_5736f55.png) no-repeat center center transparent;
+}
+
+.total-box {
+    position: absolute;
+    background-color: #FFF;
+    width: 1060px;
+    height: 510px;
+    padding: 20px 10px;
+    z-index: 10;
+    left: 50%;
+    top: 75px;
+    margin-left: -540px;
+    display: none;
+}
+
+.top_block .block_one_details .size_list.hidden {
+    display: none;
+}
+
+.top-fixed.show {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.top-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 55px;
+    background-color: #FFF;
+    z-index: 99;
+    box-shadow: 0 0 5px 5px rgba(13, 4, 8, .11);
+    -webkit-transform: translateY(-55px);
+    transform: translateY(-55px);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.top-fixed .top-fixed-wrap {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.top-fixed .top-fixed-wrap h3 {
+    line-height: 55px;
+    color: #333;
+    font-size: 22px;
+    float: left;
+    height: 55px;
+    overflow: hidden;
+    width: 435px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.top-fixed .top-fixed-wrap .top-fixed-sku {
+    float: left;
+    line-height: 55px;
+}
+
+.top-fixed .top-fixed-wrap .top-fixed-sku .float-right {
+    float: right;
+    min-width: 180px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.top-fixed .top-fixed-wrap .top-fixed-sku .float-right {
+    float: right;
+    min-width: 180px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.top-fixed .top-fixed-wrap .top-fixed-sku .float-right span {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #FF4338;
+    text-decoration: underline;
+}
